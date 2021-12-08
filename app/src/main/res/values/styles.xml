@@ -1,0 +1,86 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="title_button_style">
+        <item name="android:layout_width">@dimen/dim0</item>
+		<item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">11</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="margin_style">
+        <item name="android:layout_marginBottom">@dimen/dim10</item>
+        <item name="android:layout_marginLeft">@dimen/dim10</item>
+        <item name="android:layout_marginRight">@dimen/dim10</item>
+        <item name="android:layout_marginTop">@dimen/dim10</item>
+    </style>
+    
+    <style name="edit_text_style">
+        <item name="android:paddingLeft">@dimen/dim10</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/login_input</item>
+        <item name="android:layout_marginTop">@dimen/dim40</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="edit_password_style">
+        <item name="android:paddingLeft">@dimen/dim10</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dim0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/login_input</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="equipment_test_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/white</item>
+		<item name="android:layout_weight">1</item>	
+		<item name="android:textSize">18sp</item>
+		<item name="android:gravity">center</item>
+    </style>
+    
+    <style name="equipment_test_textview_describe_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">2</item>	
+		<item name="android:textSize">23sp</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:gravity">center</item>
+    </style>
+    
+    <style name="equipment_test_textview_content_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">3</item>	
+		<item name="android:textSize">23sp</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:background">@color/button_first</item>
+		<item name="android:gravity">right</item>
+    </style>
+
+    <style name="equipment_test_linear_style">
+        
+    </style>
+    
+</resources>

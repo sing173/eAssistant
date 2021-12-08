@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 蓝色 -->
+   	<color name="blue">#0000FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="pull_refresh_textview">#000000</color> 
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 暗灰色 -->
+    <color name="brown">#715f3b</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="deepblue">#6b73e2</color>
+    <!-- 提前还贷计算器按钮组背景色 -->
+    <color name="bg_calculator_btns">#b0b0b0</color>
+    <!-- 提前还贷计算器按钮组边框色 -->
+    <color name="border_calculator_color">#2f2b25</color>
+     <!-- 深灰色 -->
+    <color name="deepgrey">#b0b0b0</color>
+    <!-- 深红色 -->
+    <color name="deepred">#de6823</color>
+    <!-- 深橘色 -->
+    <color name="deep_orange">#ec600f</color>
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+    <!-- 银色 -->
+    <color name="silver">#cccccc</color>
+    <!-- 浅灰色 -->
+    <color name="light_gray">#f0f0f0</color>
+    <!-- 浅灰色（textview） -->
+    <color name="light_gray_tv">#646464</color>
+    <color name="darkgray">#505050</color>
+    <color name="result_text">#ffffff</color>
+    <!-- 浅紫色 -->
+    <color name="light_purple">#aba0be</color>
+    <color name="lightblack">#4d4d4d</color>
+    <!-- 登录界面button按钮 -->
+    <color name="button_login">#5f94d8</color>
+    <color name="login_textview_bule">#1371cb</color>
+    <!-- 主界面button背景 -->
+    <color name="button_first">#4881b6</color>
+    <color name="button_choose">#2694d3</color>
+    <!-- 饼图所需颜色 -->
+    <color name="hf_cm_piecolor01">#e35b38</color>
+    <color name="hf_cm_piecolor02">#0c6f91</color>
+    <color name="hf_cm_piecolor03">#e37d63</color>
+    <color name="hf_cm_piecolor04">#79b544</color>
+    <color name="hf_cm_piecolor05">#53c1e3</color>
+    <color name="hf_cm_piecolor06">#00ade3</color>
+    <color name="hf_cm_piecolor07">#00a01d</color>
+    <color name="hf_cm_piecolor_dark01">#8c582e</color>
+    <color name="hf_cm_piecolor_dark02">#324d6d</color>
+    <color name="hf_cm_piecolor_dark03">#553969</color>
+    <color name="hf_cm_piecolor_dark04">#65752e</color>
+    <color name="hf_cm_piecolor_dark05">#216c81</color>
+    <color name="hf_cm_piecolor_dark06">#a16124</color>
+    <color name="hf_cm_piecolor_dark07">#625277</color>
+    
+    <color name="popupwindow_color1">#acd9f8</color>
+    <color name="popupwindow_color2">#cfdfef</color>
+    <color name="popupwindow_divide">#f87614</color>
+
+    <!-- 单双框item背景颜色 -->
+    <color name="item_background">#f0f0f0</color>
+    <color name="item_double_background">#fafafa</color>
+    <!-- item下边线颜色 -->
+    <color name="item_below_line">#E0DED9</color>
+    <!-- 业务信息中，已办理时字体颜色（蓝色） -->
+    <color name="item_ishave_blue">#025590</color>
+    <!-- 机构信息与折线图分割线颜色 -->
+    <color name="agency_fengexian">#999999</color>
+    <!-- 字体颜色 -->
+    <color name="text_color">#323232</color>
+
+    <!--蓝色背景主色调-->
+    <color name="background_main">#145da1</color>
+</resources>

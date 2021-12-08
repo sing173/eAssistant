@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+    <LinearLayout 
+        android:layout_width="@dimen/dim0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+    
+    <LinearLayout
+        android:layout_width="@dimen/dim0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/dim10"
+        android:background="@color/transparent" 
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:layout_weight="3"
+            />
+        
+
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/zipTransLogBt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:text="压缩交易日志"
+            android:layout_weight="1.2"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            android:textSize="20sp"
+            />
+
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/uploadCrashLogBt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:text="上传异常日志"
+            android:layout_weight="1.2"
+            android:textColor="@color/white"
+            android:background="@drawable/button"
+            android:textSize="20sp"
+            />
+
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:layout_weight="1"
+            />
+    
+    	<Button
+            android:id="@+id/uploadTransLogBt"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="@dimen/dim0"
+    	    android:text="上传交易日志"
+    	    android:layout_weight="1.2"
+    	    android:textColor="@color/white"
+    	    android:background="@drawable/button"
+    	    android:textSize="20sp"
+    	    />	
+    	    
+    	<LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim0"
+            android:layout_weight="3"
+            />
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="@dimen/dim0"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+	</LinearLayout>
+</RelativeLayout>

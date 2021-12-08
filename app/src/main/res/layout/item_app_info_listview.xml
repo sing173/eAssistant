@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dim100" 
+    android:orientation="horizontal"
+    >
+    
+    <RelativeLayout 
+        android:layout_width="@dimen/dim0"
+        android:layout_height="@dimen/dim110"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        >
+        <ImageView 
+        android:id="@+id/appSrc"
+        android:layout_width="@dimen/dim80"
+        android:layout_height="@dimen/dim80"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/icon01"
+        android:layout_centerVertical="true"
+        />
+    
+    <TextView 
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim50"
+        android:text="移动厅堂"
+        android:layout_toRightOf="@+id/appSrc"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/dim10"
+        android:textSize="25sp"
+        />
+    
+    <TextView 
+        android:id="@+id/appRemark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim30"
+        android:text="移动厅堂"
+        android:layout_below="@+id/appName"
+        android:layout_toRightOf="@+id/appSrc"
+        android:layout_marginLeft="@dimen/dim10"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        />
+    
+    <TextView 
+        android:id="@+id/appNameTitle"
+        android:layout_width="@dimen/dim80"
+        android:layout_height="@dimen/dim30"
+        android:text="版本号："
+        android:layout_below="@+id/appRemark"
+        android:layout_toRightOf="@+id/appSrc"
+        android:layout_marginLeft="@dimen/dim10"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        />
+    
+    <TextView 
+        android:id="@+id/appVersion"
+        android:layout_width="@dimen/dim80"
+        android:layout_height="@dimen/dim30"
+        android:text="1.2.1"
+        android:layout_below="@+id/appRemark"
+        android:layout_toRightOf="@+id/appNameTitle"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        />
+    
+    <TextView 
+        android:id="@+id/appUpdateTimeTitle"
+        android:layout_width="@dimen/dim100"
+        android:layout_height="@dimen/dim30"
+        android:text="更新时间："
+        android:layout_below="@+id/appRemark"
+        android:layout_toRightOf="@+id/appVersion"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:layout_marginLeft="@dimen/dim20"
+        />
+    
+    <TextView 
+        android:id="@+id/appUpdateTime"
+        android:layout_width="@dimen/dim110"
+        android:layout_height="@dimen/dim30"
+        android:text="2016-12-6"
+        android:layout_below="@+id/appRemark"
+        android:layout_toRightOf="@+id/appUpdateTimeTitle"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        />
+    </RelativeLayout>
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="@dimen/dim0"
+        android:layout_height="@dimen/dim100"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/dim50"
+        android:gravity="center"
+        >
+        <Button 
+        android:id="@+id/add_app"
+		android:visibility="gone"
+        android:layout_width="@dimen/dim130"
+        android:layout_height="@dimen/dim50"
+        android:text="添加"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+        
+        <Button 
+            android:id="@+id/delete_app"
+        android:layout_width="@dimen/dim130"
+        android:layout_height="@dimen/dim50"
+        android:text="卸载"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:layout_marginLeft="@dimen/dim30"
+        android:textColor="@color/white"
+        />
+        
+        <Button 
+            android:id="@+id/update_app"
+        android:layout_width="@dimen/dim130"
+        android:layout_height="@dimen/dim50"
+        android:text="更新"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:layout_marginLeft="@dimen/dim30"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        />
+        
+    </LinearLayout>
+
+</LinearLayout>

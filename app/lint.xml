@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="MissingTranslation" severity="error" />
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/examples/gatewaydemo/activity/FirstActivity.java" />
+        <ignore path="src/com/examples/gatewaydemo/base/BaseFragment.java" />
+        <ignore path="src/com/examples/gatewaydemo/fragment/AppStoreFragment.java" />
+        <ignore path="src/com/examples/gatewaydemo/fragment/EditPasswordFragment.java" />
+    </issue>
+    <issue id="ValidFragment" severity="ignore" />
+</lint>

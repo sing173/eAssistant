@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 
+    <external-files-path
+    	path="Android/data/com.examples.gatewaydemo/"
+    	name="files_root"
+    />
+    <external-files-path
+        name="external_storage_root"
+        path="."/>
+     -->
+    
+    <root-path 
+        path="" name="external_storage_root"
+        />
+    
+</paths>

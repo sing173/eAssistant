@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/button_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dim20"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/dim0"
+            android:layout_height="match_parent"
+            android:layout_weight="30" />
+
+        <Button
+            android:id="@+id/my_collection"
+            style="@style/title_button_style"
+            android:background="@drawable/button_collection"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dim0"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/my_application"
+          android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_my_application" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dim0"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/all_application"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_all_application" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dim0"
+            android:layout_height="match_parent"
+            android:layout_weight="30" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button_group"
+        android:layout_margin="@dimen/dim10"
+        android:layout_marginTop="@dimen/dim30"
+        android:background="@color/button_first">
+
+    </RelativeLayout>
+
+</RelativeLayout>

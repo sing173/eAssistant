@@ -53,6 +53,7 @@ import android.os.Build;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -1198,8 +1199,14 @@ public final class Tool {
 			Method get=c.getMethod("get", String.class);
 			serialNo=(String) get.invoke(c, "ro.serialno");
 			if(serialNo.equals("")&&Build.VERSION.SDK_INT>25){
-				serialNo=Build.SERIAL;
+				if(Build.VERSION.SDK_INT >= 29) {
+					serialNo = Settings.System.getString(context.getContentResolver(),
+							Settings.Secure.ANDROID_ID);
+				} else {
+					serialNo = Build.SERIAL;
+				}
 			}
+
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -9,11 +9,11 @@ android {
             keyAlias '福卡e助手'
         }
     }
-    compileSdkVersion 24
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "com.examples.gatewaydemo"
-        minSdkVersion 9
+        minSdkVersion 19
         targetSdkVersion 24
     }
 
